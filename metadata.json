@@ -1,0 +1,5 @@
+{
+  "name": "Image Carousel Modal",
+  "description": "A React application that displays a modal with an image carousel (slider) when a button is clicked. Each image in the carousel shows metadata like the uploader and upload date.",
+  "requestFramePermissions": []
+}
