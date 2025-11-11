@@ -20,7 +20,7 @@ const App: React.FC = () => {
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8">Click the button below to view a collection of beautiful images in a responsive carousel.</p>
         <button
           onClick={() => setShowModal(true)}
-          className="inline-flex items-center gap-3 bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 transition-all duration-300 ease-in-out transform hover:scale-105"
+          className="inline-flex items-center gap-3 bg-red-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 dark:focus:ring-red-800 transition-all duration-300 ease-in-out transform hover:scale-105"
         >
           <CameraIcon className="h-6 w-6" />
           Open Image Gallery
