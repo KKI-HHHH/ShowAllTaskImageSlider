@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import ImageCarouselModal from './components/ImageCarouselModal';
+import ImageCarouselModal from './components/ImageCarouselModal'; 
 import { MOCK_IMAGES } from './constants';
 
 const CameraIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -16,7 +16,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-4">
       <div className="text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Image Gallery Showcase</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Image Gallery Button</h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8">Click the button below to view a collection of beautiful images in a responsive carousel.</p>
         <button
           onClick={() => setShowModal(true)}
