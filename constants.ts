@@ -32,4 +32,22 @@ export const MOCK_IMAGES: ImageInfo[] = [
     uploadedBy: 'Coastal Adventurer',
     uploadDate: '2023-10-22',
   },
+  {
+    id: 6,
+    url: 'https://picsum.photos/id/1050/1200/800',
+    uploadedBy: 'Coastal Adventurer',
+    uploadDate: '2023-10-22',
+  },
+  {
+    id: 7,
+    url: 'https://picsum.photos/id/1050/1200/800',
+    uploadedBy: 'Coastal Adventurer',
+    uploadDate: '2023-10-22',
+  },
+  {
+    id: 8,
+    url: 'https://picsum.photos/id/1050/1200/800',
+    uploadedBy: 'Coastal Adventurer',
+    uploadDate: '2023-10-22',
+  },
 ];
